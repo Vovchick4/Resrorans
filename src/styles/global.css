@@ -1,0 +1,23 @@
+:root {
+  --main-color: #589442;
+}
+
+.main_color {
+  background: var(--main-color);
+}
+
+.main_border_color {
+  border-left: 5.5px solid var(--main-color);
+}
+
+.main_border_color_disabled {
+  border-left: 5.5px solid white;
+}
+
+.main_border_color_disabled:hover {
+  border-left: 5.5px solid rgb(229, 231, 235);
+}
+
+.main_text_color {
+  color: #589442;
+}
